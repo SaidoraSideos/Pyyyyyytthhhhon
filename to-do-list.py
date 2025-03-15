@@ -34,7 +34,7 @@ def killobjective():
 def completedobjective():
     activeobjectives()
     try:
-        objindex = int(input("Enter to number corresponding to the task you wish to delete:")) -1
+        objindex = int(input("Enter to number corresponding to the objective:")) -1
         if 0 <= objindex < len(objectives):
             objectives[objindex]["Completed"] = True
             print(f"Objective {objectives[objindex]} has been marked as complete.")
