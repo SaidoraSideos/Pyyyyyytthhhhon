@@ -2,10 +2,14 @@ import random
 tries = 0
 
 num = random.randint(1, 100)
+main
 choice = 0
 while 0 <= choice <= 100:
+
+choice = int(input("Wanna play a guessing game? Guess a number from 1 to 100 and see if it matches the computer! "))
+while 0 < choice <= 100:
+main
     try:
-         choice = int(input("Wanna play a guessing game? Guess a number from 1 to 100 and see if it matches the computer! "))
          tries = tries + 1
          if choice == num:
           print(f"You guessed right! The number was {choice}")

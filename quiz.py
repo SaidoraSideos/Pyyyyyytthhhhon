@@ -40,6 +40,7 @@ for i, question in enumerate(quiz_questions, start=1):
         print(option)
     
     user_answer = input("Enter your answer (A, B, C, or D): ").strip().upper()
+    main
 
     """Code for validating input"""
     while True:
@@ -47,6 +48,8 @@ for i, question in enumerate(quiz_questions, start=1):
             break
         print("Invalid option. Enter an option from A-D.")
 
+=======
+main
     
     if user_answer == question["answer"]:
         print("Correct!\n")
@@ -54,4 +57,8 @@ for i, question in enumerate(quiz_questions, start=1):
     else:
         print(f"Dumbass! The correct answer was {question['answer']}\n")
 
+main
 print(f"That's a wrap! Your score is {score}/{len(quiz_questions)}")
+=======
+print(f"That's a wrap! Your score is {score}/{len(quiz_questions)}")
+main
